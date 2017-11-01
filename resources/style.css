@@ -1,5 +1,6 @@
 html{
-  font-family: sans-serif helvetica;
+  font-family: Helvetica;
+  line-height: 1.2;
 }
 body{
   margin: 0;
@@ -23,9 +24,16 @@ body{
 .title-site span{
   font-size: 32px;
 }
+.colmar{
+  color: rgb(89, 89, 89);
+}
+.academy{
+  color: rgb(167, 167, 167);
+}
 .banner-nav span{
   padding-right: 16px;
   font-size: 1.5rem;
+  color: rgb(79, 79, 79);
 }
 .banner-nav{
   padding-right: 8px;
@@ -38,11 +46,13 @@ body{
   background-color: #D8D8D8;
 }
 .img-section-one{
-  max-width: 60%;
+  width: 60%;
   margin: 32px 24px;
+
 }
 .img-section-one img{
-  max-width: 100%;
+  width: 100%;
+
 }
 .section-one-right-side{
   display: flex;
@@ -69,10 +79,10 @@ body{
   color:white;
   background-color: #4A4A4A;
   text-align: center;
-  width: 40%;
+  width: 48%;
 }
 .button-section-one p{
-    padding: 8px 90px;
-    font-size: 1.5rem;
-    margin: 0;
+  padding: 8px 90px;
+  font-size: 1.5rem;
+  margin: 0;
 }
