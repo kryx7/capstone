@@ -1,12 +1,13 @@
+html{
+  font-family: sans-serif helvetica;
+}
 body{
   margin: 0;
 }
-
 .top-banner{
   display: flex;
   justify-content: space-between;
   height: 64px;
-  border: 2px solid black;
   align-items: center;
 }
 .logo-side{
@@ -17,11 +18,61 @@ body{
   padding-left: 24px;
 }
 .logo img{
-  height: 2.5rem;
+  height: 3rem;
+}
+.title-site span{
+  font-size: 32px;
 }
 .banner-nav span{
   padding-right: 16px;
+  font-size: 1.5rem;
 }
 .banner-nav{
   padding-right: 8px;
+}
+.section-one{
+  display: flex;
+  justify-content:  flex-start;
+  align-items: center;
+  flex-direction: row;
+  background-color: #D8D8D8;
+}
+.img-section-one{
+  max-width: 60%;
+  margin: 32px 24px;
+}
+.img-section-one img{
+  max-width: 100%;
+}
+.section-one-right-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 40%;
+  color:#4A4A4A;
+
+}
+.text-section-one-right{
+  width: 50%;
+
+}
+.text-section-one-right h1{
+  font-size: 3.5rem;
+  text-align: left;
+}
+.text-section-one-right h3{
+  font-size: 2rem;
+  text-align: left;
+}
+.button-section-one{
+  color:white;
+  background-color: #4A4A4A;
+  text-align: center;
+  width: 40%;
+}
+.button-section-one p{
+    padding: 8px 90px;
+    font-size: 1.5rem;
+    margin: 0;
 }
