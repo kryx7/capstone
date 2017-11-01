@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+
+.top-banner{
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  border: 2px solid black;
+  align-items: center;
+}
+.logo-side{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height:32px;
+  padding-left: 24px;
+}
+.logo img{
+  height: 2.5rem;
+}
+.banner-nav span{
+  padding-right: 16px;
+}
+.banner-nav{
+  padding-right: 8px;
+}
