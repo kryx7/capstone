@@ -1,9 +1,12 @@
 html{
-  font-family: Helvetica;
+  font-family: "system-ui";
   line-height: 1.2;
+  font-size: 16px;
+  color:#4A4A4A;
 }
 body{
-  margin: 0;
+  margin: 0 auto;
+  max-width: 70%;
 }
 .top-banner{
   display: flex;
@@ -22,7 +25,7 @@ body{
   height: 3rem;
 }
 .title-site span{
-  font-size: 32px;
+  font-size: 24px;
 }
 .colmar{
   color: rgb(89, 89, 89);
@@ -32,7 +35,7 @@ body{
 }
 .banner-nav span{
   padding-right: 16px;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: rgb(79, 79, 79);
 }
 .banner-nav{
@@ -44,45 +47,98 @@ body{
   align-items: center;
   flex-direction: row;
   background-color: #D8D8D8;
+  border-left:2px solid rgb(188, 188, 188);
+  border-right: 2px solid rgb(188, 188, 188);
 }
 .img-section-one{
   width: 60%;
   margin: 32px 24px;
-
 }
 .img-section-one img{
   width: 100%;
-
 }
 .section-one-right-side{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 40%;
+  width: 400px;
   color:#4A4A4A;
-
+  margin-right:24px;
+  padding-left:31.5px;
 }
 .text-section-one-right{
-  width: 50%;
-
+  width: 100%;
 }
 .text-section-one-right h1{
-  font-size: 3.5rem;
+  font-size:2.5rem;
   text-align: left;
 }
 .text-section-one-right h3{
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: left;
 }
 .button-section-one{
   color:white;
   background-color: #4A4A4A;
   text-align: center;
-  width: 48%;
+  width: 100%;
 }
 .button-section-one p{
   padding: 8px 90px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   margin: 0;
+}
+.section-practice{
+  display: flex;
+  justify-content:  flex-start;
+  align-items: center;
+  flex-direction: row;
+  border-left:2px solid rgb(188, 188, 188);
+  border-right: 2px solid rgb(188, 188, 188);
+  padding-bottom: 32px;
+}
+.section-practice-left{
+  width: 68%;
+  margin: 32px 24px;
+}
+.section-practice-left-img img{
+  width: 100%;
+}
+.section-practice-right{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border-left: 1px solid rgb(227, 229, 228);
+  padding-top: 16px;
+  align-self: flex-start;
+}
+.element{
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px;
+  border-bottom: 1px solid rgb(227, 229, 228);
+  width: auto;
+}
+.sub-element-right{
+  width: 35%;
+  height: auto;
+  padding-right: 16px;
+}
+.sub-element-right img{
+  width: 100%;
+}
+.sub-element-right-lecture{
+  width: 60%;
+  height: auto;
+  padding-right: 16px;
+}
+.sub-element-right-lecture img{
+  width:100%;
+}
+#element-gray-background{
+  background-color: rgb(216, 216, 216);
+}
+.link-read-more{
+  color: rgb(32, 80, 129);
 }
