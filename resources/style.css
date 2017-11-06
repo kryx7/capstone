@@ -117,6 +117,9 @@ body{
   padding-top: 16px;
   align-self: flex-start;
 }
+.mobile{
+  display: none;
+}
 .element{
   display: flex;
   flex-direction: row;
@@ -223,12 +226,88 @@ body{
   padding-right: 6px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px){
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait){
+
+body{
+  margin: 0 auto;
+  border: 2px solid rgb(188, 188, 188);
+  max-width: 100%;
+}
 .title-site{
 display: none;
 }
 .banner-nav{
 display: none;
 }
-
+.menu-500px{
+  display: flex;
+  justify-content: space-around;
+}
+.menu-500px{
+  height: 3rem;
+}
+.top-banner{
+  display: flex;
+  justify-content: space-around;
+}
+.logo-side{
+  padding-left: 0px;
+}
+.section-one{
+  display: flex;
+  flex-direction: column;
+}
+.img-section-one{
+  width:100%;
+  margin:0;
+}
+.section-one-right-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left:16px;
+  margin-bottom: 32px;
+  width: auto;
+}
+.section-practice-left{
+  display: none;
+}
+.section-practice-right{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+}
+.mobile{
+  display: flex;
+}
+.desktop{
+  display:none;
+}
+.sub-element-right-lecture{
+  width:100%;
+  height: auto;
+  padding-right: 16px;
+}
+.element{
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px;
+  border-bottom: 1px solid rgb(227, 229, 228);
+  width: auto;
+  justify-content: center;
+}
+.sub-element-right{
+  width: 100%;
+  height: auto;
+  padding-right: 16px;
+}
+.sub-element-left{
+  width:100%;
+  font-size: 1.5rem;
+}
 }
