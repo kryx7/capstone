@@ -42,6 +42,9 @@ body{
 .banner-nav{
   padding-right: 8px;
 }
+.menu-500px{
+  display:none;
+}
 .section-one{
   display: flex;
   justify-content:  flex-start;
@@ -218,4 +221,14 @@ body{
 }
 .footer-nav span{
   padding-right: 6px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+.title-site{
+display: none;
+}
+.banner-nav{
+display: none;
+}
+
 }
