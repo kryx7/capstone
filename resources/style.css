@@ -167,6 +167,9 @@ body{
   position: relative;
   padding: 0 72px;
 }
+.mobile-container{
+  display:none;
+}
 .subject{
   display: block;
   flex-direction: row;
@@ -292,14 +295,16 @@ display: none;
   width:100%;
   height: auto;
   padding-right: 16px;
+
 }
 .element{
   display: flex;
   flex-direction: column;
   padding: 16px 16px;
   border-bottom: 1px solid rgb(227, 229, 228);
-  width: auto;
+  width: 90%;
   justify-content: center;
+  align-self: center;
 }
 .sub-element-right{
   width: 100%;
@@ -309,5 +314,53 @@ display: none;
 .sub-element-left{
   width:100%;
   font-size: 1.5rem;
+}
+#element-gray-background{
+  background-color: white;
+}
+.section-learning{
+  background-color: white;
+}
+.section-learning-title{
+  font-size: 4rem;
+  padding-bottom: 32px;
+  margin: 0;
+}
+.section-learning{
+  padding: 0;
+}
+.learning-subjects{
+  display: none;
+}
+.mobile-container{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mobile-container-subject{
+  text-align: left;
+  padding: 16px 0 24px 16px;
+  background-color:#D8D8D8;
+  width:90%;
+  align-self: center;
+  margin: 8px;
+}
+.section-thesis-right{
+  display: none;
+}
+.section-practice-left-txt{
+  display: none;
+}
+.section-thesis-left{
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+}
+.terms-conditions{
+  display: none;
+}
+.section-thesis{
+  border:none;
 }
 }
