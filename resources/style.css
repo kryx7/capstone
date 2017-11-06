@@ -176,3 +176,44 @@ body{
 #subject-margin{
   margin-right: 32px;
 }
+.section-thesis-left{
+  width: 60%;
+  margin: 0 24px;
+}
+.section-thesis{
+  display: flex;
+  justify-content:  space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 32px;
+  border-bottom:1px solid rgb(228, 230, 229);
+}
+.section-bottom{
+  padding-top: 32px;
+  border-left:2px solid rgb(188, 188, 188);
+  border-right: 2px solid rgb(188, 188, 188);
+}
+.section-thesis-right{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-self: flex-start;
+}
+.element-no-border{
+  display: flex;
+  flex-direction: row;
+  padding: 16px 16px;
+  width: auto;
+}
+.footer-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-left:2px solid rgb(188, 188, 188);
+  border-right: 2px solid rgb(188, 188, 188);
+  border-bottom: 2px solid rgb(188, 188, 188);
+}
+.footer-nav span{
+  padding-right: 6px;
+}
