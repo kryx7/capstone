@@ -62,20 +62,20 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  width: 400px;
+  width: 350px;
   color:#4A4A4A;
   margin-right:24px;
-  padding-left:31.5px;
+  padding-left:25px;
 }
 .text-section-one-right{
   width: 100%;
 }
 .text-section-one-right h1{
-  font-size:2.5rem;
+  font-size:2rem;
   text-align: left;
 }
 .text-section-one-right h3{
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: left;
 }
 .button-section-one{
@@ -141,4 +141,38 @@ body{
 }
 .link-read-more{
   color: rgb(32, 80, 129);
+}
+.section-learning{
+  background-color: #D8D8D8;
+  padding:32px 0px;
+}
+.section-learning-title{
+  text-align: center;
+  padding-bottom: 32px;
+}
+.learning-subjects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  padding: 0 72px;
+}
+.subject{
+  display: block;
+  flex-direction: row;
+  max-width: 30%;
+  background-color: white;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.subject img{
+  height: auto;
+  width: 100%;
+}
+.subject-description{
+  padding: 16px 16px 24px 16px;
+}
+#subject-margin{
+  margin-right: 32px;
 }
